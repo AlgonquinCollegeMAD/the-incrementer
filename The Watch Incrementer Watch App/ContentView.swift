@@ -13,12 +13,11 @@ struct ContentView: View {
         .padding()
       
       HStack {
-        Button("+") {
-          myNumber += 1
-        }
-        
         Button("Reset") {
           myNumber = 0
+        }
+        Button("+") {
+          myNumber += 1
         }
       }
     }
